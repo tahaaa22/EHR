@@ -77,26 +77,26 @@ WSGI_APPLICATION = 'DjangoEHR.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# version 1
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-#    }
+#version 1
+ DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': BASE_DIR / 'db.sqlite3',
+     }
+    }
 
 # # version2
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'lab3database',
-        'PASSWORD': 'Mypassword3',
-        'HOST': 'ehrserver.postgres.database.azure.com',
-        'PORT': '5432',
-        'OPTIONS':{'sslmode':'require'},
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'lab3database',
+#         'PASSWORD': 'Mypassword3',
+#         'HOST': 'ehrserver.postgres.database.azure.com',
+#         'PORT': '5432',
+#         'OPTIONS':{'sslmode':'require'},
+#     }
+# }
 
 
 # Password validation
