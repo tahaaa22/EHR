@@ -92,7 +92,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'Ahmed1210193',
         'PASSWORD': '*Gonextgo*',
-        'HOST': 'Ahmed1210193.postgres.database.azure.com',
+        'HOST': 'task1.postgres.database.azure.com',
         'PORT': '5432',
         'OPTIONS':{'sslmode':'require'},
     }
